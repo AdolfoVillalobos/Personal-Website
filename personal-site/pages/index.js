@@ -23,10 +23,12 @@ class Home extends React.Component {
             jobStatus={DATA.jobStatus}
             instaURL={DATA.instaURL}
             githubURL={DATA.githubURL}
+            emailURL={DATA.emailURL}
             linkedinURL={DATA.linkedinURL}
           />
           <Description
             skills={DATA.skills}
+            interests={DATA.interests}
             resumeURL={DATA.resumeURL}
             experiences={DATA.experiences}
             projects={DATA.projects}
