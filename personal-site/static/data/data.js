@@ -5,28 +5,44 @@ export default {
     instaURL: "https://www.instagram.com/shyamm06/",
     githubURL: "https://github.com/AdolfoVillalobos",
     linkedinURL: "https://www.linkedin.com/in/adolfovillalobos",
-    resumeURL: "https://sshyam-gupta.netlify.com/static/resume.pdf",
+    emailURL: "mailto:amvillalobos@uc.cl",
+    resumeURL: "static/assets/resume.pdf",
     skills: [
       {
         title: "Languages: ",
-        info: "JavaScript (ES6+), Typescript, HTML5, (S)CSS, Dart"
+        info: "Python, R, JavaScript (ES6+), HTML5"
       },
       {
-        title: "Libraries &amp; Frameworks: ",
+        title: " Data Science Libraries &amp; Frameworks: ",
         info:
-          "React, React Native, NextJS, GraphQL, Angular, AngularJS, Flutter, jQuery, Bootstrap, Node, Backbone, Cordova, MongoDB, Express"
+          "Numpy, Pandas, Scikit Learn, Dask, Pytorch, Tensorflow."
+      },
+      {
+        title: "Other Libraries &amp; Frameworks: ",
+        info:
+          "React, NextJS,  Bootstrap, Node, Backbone, Cordova, MongoDB, Express"
       },
       {
         title: "Tools: ",
-        info: "Git, Postman, inVision, Abstract, Netlify, Webpack, Firebase"
+        info: "Git, AWS, Heroku."
       }
+    ],
+    interests: [
+      {
+        title: "Running: ",
+        info: "My dream is to run a marathon."
+      },
+      {
+        title: "Music: ",
+        info: "I play Guitar, Piano and Sing."
+      },
     ],
     experiences: [
       {
-        companyLink: "https://kiprosh.com/",
-        companyName: "Kiprosh India",
-        companyDuration: "April 2018 &mdash; Present",
-        companyDesignation: "Senior Software Engineer",
+        companyLink: "https://www.bcentral.cl/en/home",
+        companyName: "Central Bank of Chile",
+        companyDuration: "Decembrer 2017 &mdash; March 2018",
+        companyDesignation: "Data Analyst Intern at Financial Research Group",
         description: (
           <ul className="description">
             <li>

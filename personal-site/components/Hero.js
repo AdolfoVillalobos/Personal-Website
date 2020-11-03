@@ -1,6 +1,7 @@
 import Instagram from "../static/assets/instagram.svg";
 import Github from "../static/assets/github.svg";
 import LinkedIn from "../static/assets/linkedin.svg";
+import Email from "../static/assets/email.svg";
 
 export default props => {
   return (
@@ -12,9 +13,9 @@ export default props => {
           <div className="subtext">{props.subtext}</div>
           <div className="jobStatus">{props.jobStatus}</div>
           <div className="social-links">
-            <a href={props.instaURL} target="_blank">
+          <a href={props.emailURL} target="_blank">
               <i className="fa">
-                <Instagram />
+                <Email />
               </i>
             </a>
             <a href={props.githubURL} target="_blank">
