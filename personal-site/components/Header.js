@@ -35,7 +35,7 @@ export default class Header extends React.Component {
                         </div>
                         <div className="columns">
                             <div className="column">
-                                <Button title="My GitHub" url="https://github.com/nutanek" />
+                                <Button title="My GitHub" url="https://github.com/AdolfoVillalobos" />
                                 <Button title="My Works" url="https://www.indytheme.com" />                                
                             </div>
                         </div>

@@ -22,7 +22,7 @@ export default () => (
       content="Design-minded, detail oriented web developer passionate about combining beautiful code with beautiful design."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://sshyam-gupta.github.io" />
+    <meta property="og:url" content="http://amvillalobos.me" />
     <meta property="og:site_name" content="Resume | Adolfo Villalobos" />
     <meta property="og:image" content="/static/assets/favicon.png" />
     <meta property="og:image:width" content="1280" />
